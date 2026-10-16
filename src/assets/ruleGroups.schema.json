@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "JSON Schema path"
+    },
+    "groups": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "description": "kebab-case id"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "UI heading"
+          },
+          "settings": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "basedpyright setting names, in display order"
+          }
+        },
+        "required": [
+          "name",
+          "settings"
+        ],
+        "additionalProperties": false
+      },
+      "description": "in display order"
+    }
+  },
+  "required": [
+    "$schema",
+    "groups"
+  ],
+  "additionalProperties": false
+}

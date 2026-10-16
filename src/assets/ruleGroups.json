@@ -1,0 +1,193 @@
+{
+  "$schema": "./ruleGroups.schema.json",
+  "groups": {
+    "type-errors": {
+      "name": "Type errors",
+      "settings": [
+        "reportGeneralTypeIssues",
+        "reportArgumentType",
+        "reportAssignmentType",
+        "reportAttributeAccessIssue",
+        "reportCallIssue",
+        "reportIndexIssue",
+        "reportOperatorIssue",
+        "reportReturnType",
+        "reportFunctionMemberAccess",
+        "reportTypedDictNotRequiredAccess",
+        "reportUnhashable",
+        "reportRedeclaration",
+        "reportAssertTypeFailure"
+      ]
+    },
+    "optional": {
+      "name": "Optional values",
+      "settings": [
+        "reportOptionalSubscript",
+        "reportOptionalMemberAccess",
+        "reportOptionalCall",
+        "reportOptionalIterable",
+        "reportOptionalContextManager",
+        "reportOptionalOperand"
+      ]
+    },
+    "unknown-any": {
+      "name": "Unknown and Any",
+      "settings": [
+        "reportUnknownParameterType",
+        "reportUnknownArgumentType",
+        "reportUnknownLambdaType",
+        "reportUnknownVariableType",
+        "reportUnknownMemberType",
+        "reportAny",
+        "reportExplicitAny"
+      ]
+    },
+    "annotations": {
+      "name": "Missing annotations",
+      "settings": [
+        "reportMissingParameterType",
+        "reportMissingTypeArgument",
+        "reportUnannotatedClassAttribute",
+        "reportUntypedFunctionDecorator",
+        "reportUntypedClassDecorator",
+        "reportUntypedBaseClass",
+        "reportUntypedNamedTuple"
+      ]
+    },
+    "type-expressions": {
+      "name": "Type expressions",
+      "settings": [
+        "reportInvalidTypeForm",
+        "reportInvalidTypeArguments",
+        "reportInvalidTypeVarUse",
+        "reportInvalidCast",
+        "reportTypeCommentUsage"
+      ]
+    },
+    "classes": {
+      "name": "Classes and inheritance",
+      "settings": [
+        "reportIncompatibleMethodOverride",
+        "reportIncompatibleVariableOverride",
+        "reportIncompatibleUnannotatedOverride",
+        "reportImplicitOverride",
+        "reportMissingSuperCall",
+        "reportUnsafeMultipleInheritance",
+        "reportUninitializedInstanceVariable",
+        "reportInconsistentConstructor",
+        "reportPropertyTypeMismatch"
+      ]
+    },
+    "abstract": {
+      "name": "Abstract classes",
+      "settings": [
+        "reportAbstractUsage",
+        "reportEmptyAbstractUsage",
+        "reportImplicitAbstractClass",
+        "reportInvalidAbstractMethod"
+      ]
+    },
+    "overloads": {
+      "name": "Overloads",
+      "settings": [
+        "reportInconsistentOverload",
+        "reportNoOverloadImplementation",
+        "reportOverlappingOverload"
+      ]
+    },
+    "control-flow": {
+      "name": "Control flow",
+      "settings": [
+        "reportPossiblyUnboundVariable",
+        "reportUnboundVariable",
+        "reportUndefinedVariable",
+        "reportUnreachable",
+        "reportUnusedExcept",
+        "reportMatchNotExhaustive"
+      ]
+    },
+    "unused": {
+      "name": "Unused code",
+      "settings": [
+        "reportUnusedImport",
+        "reportUnusedClass",
+        "reportUnusedFunction",
+        "reportUnusedVariable",
+        "reportUnusedParameter",
+        "reportUnusedCallResult",
+        "reportUnusedCoroutine",
+        "reportUnusedExpression"
+      ]
+    },
+    "redundant": {
+      "name": "Redundant code",
+      "settings": [
+        "reportUnnecessaryIsInstance",
+        "reportUnnecessaryCast",
+        "reportUnnecessaryComparison",
+        "reportUnnecessaryContains",
+        "reportAssertAlwaysTrue"
+      ]
+    },
+    "imports": {
+      "name": "Imports and stubs",
+      "settings": [
+        "reportMissingImports",
+        "reportMissingModuleSource",
+        "reportMissingTypeStubs",
+        "reportImportCycles",
+        "reportDuplicateImport",
+        "reportWildcardImportFromLibrary",
+        "reportImplicitRelativeImport",
+        "reportInvalidStubStatement",
+        "reportIncompleteStub"
+      ]
+    },
+    "privacy": {
+      "name": "Private symbols and exports",
+      "settings": [
+        "reportPrivateUsage",
+        "reportPrivateImportUsage",
+        "reportPrivateLocalImportUsage",
+        "reportUnsupportedDunderAll"
+      ]
+    },
+    "ignore-comments": {
+      "name": "Ignore comments",
+      "settings": [
+        "reportUnnecessaryTypeIgnoreComment",
+        "reportIgnoreCommentWithoutRule"
+      ]
+    },
+    "conventions": {
+      "name": "Style and conventions",
+      "settings": [
+        "reportImplicitStringConcatenation",
+        "reportCallInDefaultInitializer",
+        "reportConstantRedefinition",
+        "reportInvalidStringEscapeSequence",
+        "reportSelfClsParameterName",
+        "reportSelfClsDefault",
+        "reportDeprecated"
+      ]
+    },
+    "analysis": {
+      "name": "Analysis settings",
+      "settings": [
+        "strictListInference",
+        "strictSetInference",
+        "strictDictionaryInference",
+        "strictParameterNoneValue",
+        "strictGenericNarrowing",
+        "analyzeUnannotatedFunctions",
+        "deprecateTypingAliases",
+        "disableBytesTypePromotions",
+        "enableTypeIgnoreComments",
+        "enableReachabilityAnalysis",
+        "enableBasedFeatures",
+        "enableExperimentalFeatures",
+        "failOnWarnings"
+      ]
+    }
+  }
+}

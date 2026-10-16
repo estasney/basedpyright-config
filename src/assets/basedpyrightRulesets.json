@@ -1,0 +1,974 @@
+[
+  {
+    "Diagnostic Rule": "strictListInference",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": true,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "strictSetInference",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": true,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "strictDictionaryInference",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": true,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "analyzeUnannotatedFunctions",
+    "off": true,
+    "basic": true,
+    "standard": true,
+    "strict": true,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "strictParameterNoneValue",
+    "off": false,
+    "basic": true,
+    "standard": true,
+    "strict": true,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "enableBasedFeatures",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": false,
+    "recommended": false,
+    "all": false
+  },
+  {
+    "Diagnostic Rule": "enableExperimentalFeatures",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": false,
+    "recommended": false,
+    "all": false
+  },
+  {
+    "Diagnostic Rule": "deprecateTypingAliases",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": false,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "disableBytesTypePromotions",
+    "off": true,
+    "basic": true,
+    "standard": true,
+    "strict": true,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "strictGenericNarrowing",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": false,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "enableTypeIgnoreComments",
+    "off": true,
+    "basic": true,
+    "standard": true,
+    "strict": true,
+    "recommended": false,
+    "all": false
+  },
+  {
+    "Diagnostic Rule": "enableReachabilityAnalysis",
+    "off": false,
+    "basic": true,
+    "standard": true,
+    "strict": true,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "failOnWarnings",
+    "off": false,
+    "basic": false,
+    "standard": false,
+    "strict": false,
+    "recommended": true,
+    "all": true
+  },
+  {
+    "Diagnostic Rule": "reportGeneralTypeIssues",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportPropertyTypeMismatch",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportFunctionMemberAccess",
+    "off": "none",
+    "basic": "none",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportMissingImports",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportMissingModuleSource",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "warning",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInvalidTypeForm",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportMissingTypeStubs",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportImportCycles",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedImport",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedClass",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedFunction",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedVariable",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportDuplicateImport",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportWildcardImportFromLibrary",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportAbstractUsage",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportEmptyAbstractUsage",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportArgumentType",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportAssertTypeFailure",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportAssignmentType",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportAttributeAccessIssue",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportCallIssue",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInconsistentOverload",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportIndexIssue",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInvalidTypeArguments",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportNoOverloadImplementation",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOperatorIssue",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOptionalSubscript",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOptionalMemberAccess",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOptionalCall",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOptionalIterable",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOptionalContextManager",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOptionalOperand",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportRedeclaration",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportReturnType",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportTypedDictNotRequiredAccess",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUntypedFunctionDecorator",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUntypedClassDecorator",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUntypedBaseClass",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUntypedNamedTuple",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportPrivateUsage",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportTypeCommentUsage",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportPrivateImportUsage",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportConstantRedefinition",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportDeprecated",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportIncompatibleMethodOverride",
+    "off": "none",
+    "basic": "none",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportIncompatibleVariableOverride",
+    "off": "none",
+    "basic": "none",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInconsistentConstructor",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportOverlappingOverload",
+    "off": "none",
+    "basic": "none",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportPossiblyUnboundVariable",
+    "off": "none",
+    "basic": "none",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportMissingSuperCall",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUninitializedInstanceVariable",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInvalidStringEscapeSequence",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnknownParameterType",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnknownArgumentType",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnknownLambdaType",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnknownVariableType",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnknownMemberType",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportMissingParameterType",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportMissingTypeArgument",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInvalidTypeVarUse",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportCallInDefaultInitializer",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnnecessaryIsInstance",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnnecessaryCast",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnnecessaryComparison",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnnecessaryContains",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportAssertAlwaysTrue",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportSelfClsParameterName",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportImplicitStringConcatenation",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUndefinedVariable",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnhashable",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnboundVariable",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInvalidStubStatement",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportIncompleteStub",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnsupportedDunderAll",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedCallResult",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedCoroutine",
+    "off": "none",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedExcept",
+    "off": "hint",
+    "basic": "error",
+    "standard": "error",
+    "strict": "error",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedExpression",
+    "off": "none",
+    "basic": "warning",
+    "standard": "warning",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnnecessaryTypeIgnoreComment",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportMatchNotExhaustive",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "error",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnreachable",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "hint",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportImplicitOverride",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportAny",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportExplicitAny",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportIgnoreCommentWithoutRule",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInvalidCast",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportImplicitRelativeImport",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportPrivateLocalImportUsage",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnsafeMultipleInheritance",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnusedParameter",
+    "off": "hint",
+    "basic": "hint",
+    "standard": "hint",
+    "strict": "hint",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportImplicitAbstractClass",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "error",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportUnannotatedClassAttribute",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportIncompatibleUnannotatedOverride",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "none",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportInvalidAbstractMethod",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  },
+  {
+    "Diagnostic Rule": "reportSelfClsDefault",
+    "off": "none",
+    "basic": "none",
+    "standard": "none",
+    "strict": "none",
+    "recommended": "warning",
+    "all": "error"
+  }
+]
